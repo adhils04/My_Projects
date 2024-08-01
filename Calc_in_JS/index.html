@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+
+<style>
+    #screen{
+        width: 300px;
+        height: 300px;
+        border: solid 1px;
+
+    }
+</style>
+
+<body>
+    <!-- <input input="text" id="input"></input>
+    <button onClick="show()">Click me</button>
+    <h1 id="val"></h1>
+    <script>
+        // function show() {
+        //     //console.log("Welcome to JS")
+
+
+        //     // var a=1
+        //     // var b=2
+        //     // var sum=a+b
+        //     // console.log(sum)
+
+        //     // var c = 4
+        //     // var c = 6
+        //     // console.log(c)
+
+        //     // var person=[{
+        //     //     Name:"Adhil",
+        //     //     Age:20
+        //     // },{Name:"Afiya",Age:10}]
+        //     // console.log(person)
+        // }
+
+        // function show(){
+            
+        //     // alert("Button clicked...")
+        //     var name = document.getElementById("input").value
+        //     document.getElementById("val").innerHTML=name
+
+        //     if(name=="Crossroads"){
+        //         window.alert("Welcome to Crossroads...")
+        //     }
+        // }
+        
+    </script> -->
+    <div id="screen">
+
+    </div>
+
+    <button onclick="color('red')" id="inp">Red</button>
+    <button onclick="color('green')" id="inp">Green</button>
+    <button onclick="color('orange')" id="inp">Orange</button>
+    <button onclick="color('yellow')" id="inp">Yellow</button>
+
+    <script>
+        function color(input){
+            document.getElementById("screen").style.background=input
+            if(input=="red"){
+                alert("You clicked Red...")
+            }
+            else if(input=="green"){
+                alert("You clicked Green...")
+            }
+            else if(input=="orange"){
+                alert("You clicked Orange...")
+            }
+            else if(input=="yellow"){
+                alert("You clicked Yellow...")
+            }
+        }
+    </script>
+
+</body>
+</html>
